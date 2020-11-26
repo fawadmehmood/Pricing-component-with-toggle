@@ -57,6 +57,7 @@ body{
     cursor: pointer;
     box-shadow: 0rem 0rem 1rem 0.2rem rgba(0, 0, 0, 0.2);
 }
+
 .toogle .circle{
     width: 2rem;
     height: 2rem;
@@ -72,11 +73,9 @@ body{
     left: 2.2rem;
 }
 
-/* .toogle .circle */
 
 .heading{
     color: var(--Grayish_Blue);
-    /* margin-top: 4rem; */
 }
 .sub_text{
     color: var(--Light_Grayish_Blue);
@@ -190,13 +189,13 @@ body{
     transition: all 1s;
 }
 
-.btn_blue:hover{
+.btn_blue:hover, .btn_blue:focus{
     color: white;
     background-color: transparent;
     border: 0.1rem solid white;
 }
 
-.btn_white:hover{
+.btn_white:hover, .btn_white:focus{
     color: var(--Linear_Gradient_2);
     background: transparent;
     border: 0.1rem solid var(--Linear_Gradient_2);
@@ -219,13 +218,6 @@ body{
 }
 
 @media only screen and (max-width: 768px){
-    /* .price .p_price{
-                font-size: 3.5rem;
-    }
-    .price .sign{
-             font-size: 2rem;
-    } */
-
     .cards{
         flex-direction: column;
     }
